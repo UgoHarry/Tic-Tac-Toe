@@ -1,13 +1,50 @@
 .container {
   width: 318px;
+  padding: 80px 0;
 }
 
 .container .row .col {
-  display: inline-block;
   height: 100px;
-  /* width: 100px; */
   border: 1px solid #cecece;
   cursor: pointer;
+  font-size: 70px;
+}
+
+.container .row.rowFirst .col {
+  border-top: none;
+}
+
+.container .row.rowLast .col {
+  border-bottom: none;
+}
+
+.container .row .col.edgeLeft {
+  border-left: none;
+}
+
+.container .row .col.edgeRight {
+  border-right: none;
+}
+.container .row .col.pullmid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/***GAME STATS/BOARD***/
+.gameBoard {
+  display: none;
+  position: absolute;
+  top: 120px;
+  left:33%;
+  background: rgba(205,102,63,0.8);
+  width: 200px;
+  height: 80px;
+
+}
+
+/***BUTTONS***/
+.ctrlGrid {
+  width: 100%;
   text-align: center;
-  vertical-align: middle;
 }

@@ -7,27 +7,31 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col" id="0">h</div>
-      <div class="col" id="1">g</div>
-      <div class="col" id="2"></div>
+  <div class="main">
+    <div class="container">
+      <div class="row rowFirst">
+        <div class="col cell pullmid edgeLeft" id="0">0</div>
+        <div class="col cell pullmid" id="1">1</div>
+        <div class="col cell pullmid edgeRight" id="2">2</div>
+      </div>
+      <div class="row">
+        <div class="col cell pullmid edgeLeft" id="3">3</div>
+        <div class="col cell pullmid" id="4">4</div>
+        <div class="col cell pullmid edgeRight" id="5">5</div>
+      </div>
+      <div class="row rowLast">
+        <div class="col cell pullmid edgeLeft" id="6"></div>
+        <div class="col cell pullmid" id="7"></div>
+        <div class="col cell pullmid edgeRight" id="8"></div>
+      </div>
+      <div class="gameBoard">
+        <div class="text">Testing</div>
+      </div>
     </div>
-    <div class="row">
-      <div class="col" id="3"></div>
-      <div class="col" id="4"></div>
-      <div class="col" id="5"></div>
+    <div class="ctrlGrid">
+      <button class="btn" onClick = "startGame()">Replay</button>
     </div>
-    <div class="row">
-      <div class="col" id="6"></div>
-      <div class="col" id="7"></div>
-      <div class="col" id="8"></div>
-    </div>
-    <div class="endGame">
-      <div class="text"></div>
-    </div>
-    <button class="btn" onClick = "resetGame()">Replay</button>
-  </div> 
+  </div>
 
   <script src="script.js"></script>
 </body>
