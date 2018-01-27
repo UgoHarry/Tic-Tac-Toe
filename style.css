@@ -35,12 +35,24 @@
 .gameBoard {
   display: none;
   position: absolute;
-  top: 120px;
-  left:33%;
-  background: rgba(205,102,63,0.8);
+  top: 275px;
+  left:50%;
+  margin-left: -100px;
+  text-align: center;
+  background: rgba(214,213,213,0.8);
   width: 200px;
   height: 80px;
+}
 
+.gameBoard .text p {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+/***BANNER***/
+.banner {
+  margin-top: 40px;
+  text-align: center;
 }
 
 /***BUTTONS***/
