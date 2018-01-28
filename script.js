@@ -1,9 +1,7 @@
 
 //The original board
 var origBoard;
-//Player Symbols
-const huPlayer = 'O';
-const aiPlayer = 'X';
+
 //Winning combinations
 const winCombos = [
 	[0, 1, 2],
@@ -15,6 +13,15 @@ const winCombos = [
 	[0, 4, 8],
 	[6, 4, 2]
 ]
+
+//////////Modal////////
+$(document).ready(function(){
+	$('#infoModal').modal('show');
+});
+
+//Player Symbols
+const huPlayer = "O";
+const aiPlayer = "X";
 
 //All pods /cells
 const cells = document.querySelectorAll('.cell');

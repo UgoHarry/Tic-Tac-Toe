@@ -10,6 +10,10 @@
   font-size: 70px;
 }
 
+.container .row .col:hover{
+  background: #f9f9cd;
+}
+
 .container .row.rowFirst .col {
   border-top: none;
 }
@@ -53,6 +57,26 @@
 .banner {
   margin-top: 40px;
   text-align: center;
+}
+
+/***MODAL***/
+.modal-body, .modal-title{
+  text-align: center;
+}
+
+.modal-body p .playSymbol {
+  font-weight: bold;
+  font-size: 33px;
+}
+
+/***BANNER***/
+.banner {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-weight: lighter;
 }
 
 /***BUTTONS***/
